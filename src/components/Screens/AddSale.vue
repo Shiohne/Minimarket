@@ -27,7 +27,7 @@
       <h4>Lista de productos</h4>
       <ul class="list-group">
         <li
-          style="background-color: #ffa504"
+          style="background-color: #66dc80"
           class="list-group-item"
           :class="{ active: index === currentIndex }"
           v-for="(tutorial, index) in tutorials"
@@ -41,7 +41,7 @@
     <!-- Current Tutorial Panel -->
     <div class="col-md-6">
       <div v-if="currentTutorial">
-        <h4>Product Info</h4>
+        <h4>Detalles:</h4>
         <div>
           <label><strong>Name: </strong>{{ currentTutorial.name }}</label>
         </div>
@@ -85,6 +85,7 @@
           v-if="currentOrder"
           class="badge badge-success differX"
           @click="AddOrder_Detail"
+          style="color: black;background-color: #ffb933"
         >
           Añadir a la orden
         </button>
@@ -93,6 +94,7 @@
           v-if="currentOrder"
           class="badge badge-success"
           @click="GetOrderDetail"
+          style="color: black;background-color: #ffb933"
         >
           Finalizar
         </button>
@@ -351,13 +353,18 @@ export default {
     z-index: 10;
     height: 600px;
     width: 700px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
   margin-top: 120px;
   margin-left: 300px;
 
     padding: 10px;
 }
 .differX{
+  font-size: 20px;
   margin-top: 20px;
+}
+.badge-success{
+  margin-top: 10px;
+  font-size: 20px;
 }
 </style>

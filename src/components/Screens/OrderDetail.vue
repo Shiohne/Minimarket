@@ -1,14 +1,14 @@
 <template>
 <div class="shadow">
   <div class="col-md-12">
-    <h4>Detalle de la orden {{order.id}}</h4>
+    <h4>Detalle de la orden N° {{order.id}}</h4>
     <div class="container">
       <div class="row">
         <div class="col-sm-4 col-md-4 col-lg-4">
           <p>Nombre del producto:</p>
           <ul class="list-group">
             <li
-              style="background-color: #ffa504"
+              style="background-color: #66dc80"
               class="list-group-item"
               :class="{ active: index === currentIndex }"
               v-for="(product, index) in products"
@@ -22,7 +22,7 @@
           <p>Precio Unitario:</p>
           <ul class="list-group">
             <li
-              style="background-color: #ffa504"
+              style="background-color: #66dc80"
               class="list-group-item"
               :class="{ active: index === currentIndex }"
               v-for="(product, index) in products"
@@ -36,7 +36,7 @@
           <p>Cantidad:</p>
           <ul class="list-group">
             <li
-              style="background-color: #ffa504"
+              style="background-color: #66dc80"
               class="list-group-item"
               :class="{ active: index === currentIndex }"
               v-for="(detail, index) in details"
@@ -59,12 +59,13 @@
           v-if="order"
           class="badge badge-success"
           @click="confirm"
+          style="color: black;background-color: #ffb933 "
         >
           Finalizar
         </button>
   </div>
      <div>
-        <button class="badge badge-success differB" @click="printPage">
+        <button class="badge badge-success differB" @click="printPage" style="color: black;background-color: #ffb933 ">
            Imprimir reporte
         </button>
      </div>

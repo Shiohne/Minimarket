@@ -70,7 +70,7 @@
               name="age"
             />
           </div>
-          <button @click="saveTutorial" class="btn btn-success">Registrar</button>
+          <button @click="saveTutorial" class="btn btn-success" style="background-color: #ffb933; color: black">Registrar</button>
         </div>
         <div v-else>
           <h4>Successfully submitted.</h4>
@@ -136,13 +136,11 @@ export default {
 
 <style scoped>
 .shadow {
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 20px 6px -6px #999;
+
     z-index: 10;
     height: 620px;
     width: 700px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
   margin-top: 110px;
   margin-left: 300px;
 

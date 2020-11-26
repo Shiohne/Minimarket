@@ -8,7 +8,7 @@
             <p>Tipo de tasa</p>
             <ul class="list-group">
               <li
-                style="background-color: #ffa504"
+                style="background-color: #66dc80"
                 class="list-group-item"
                 :class="{ active: index === currentIndexRate }"
                 v-for="(rate, index) in rates"
@@ -24,7 +24,7 @@
             <p>Periodo</p>
             <ul class="list-group">
               <li
-                style="background-color: #ffa504"
+                style="background-color: #00a948"
                 class="list-group-item"
                 :class="{ active: index === currentIndex }"
                 v-for="(term, index) in terms"
@@ -82,7 +82,7 @@
         </div>
 
         <div class="form-group" v-if="currentCap">
-          <label for="capitalization">Capitalización</label>
+          <label for="capitalization"></label>
           <input
             type="text"
             class="form-control differ"
@@ -113,7 +113,7 @@
         </div>
       </div>
     </form>
-    <button class="badge badge-success" @click="saveCreditDetails">
+    <button class="badge badge-success" @click="saveCreditDetails" style="color: black;background-color: #ffb933">
       Confirmar
     </button>
     <p>{{ message }}</p>
@@ -274,22 +274,21 @@ export default {
 </script>
 
 <style scoped>
-.edit-form {
-  max-width: 1100px;
-  margin: auto;
-  margin-left: 60px;
-}
+
 .shadow {
     z-index: 1000;
-    height: 720px;
+    height: 700px;
     width: 700px;
-    background-color: rgb(255, 255, 255);
-  margin-top: 120px;
+    background-color: rgb(245, 245, 245);
+  margin-top: 80px;
   margin-left: 300px;
 
-    padding: 20px;
+    padding: 10px;
 }
 .differ{
   margin: -7px;
+}
+.badge-success{
+  font-size: 20px;
 }
 </style>

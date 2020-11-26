@@ -81,7 +81,7 @@
 
         <ul class="list-group">
           <li
-            style="background-color: orange"
+            style="background-color: #66dc80"
             class="list-group-item"
             :class="{ active: index === currentIndexCurrency }"
             v-for="(currency, index) in currencies"
@@ -92,7 +92,7 @@
           </li>
         </ul>
 
-        <button class="badge badge-success differ" @click="saveCredit">
+        <button class="badge badge-success differ" @click="saveCredit" style="color: black; background-color: #ffb933">
           Siguiente
         </button>
       </div>
@@ -297,12 +297,13 @@ export default {
     z-index: 1000;
     height: 500px;
     width: 700px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
   margin-top: 120px;
   margin-left: 300px;
     padding: 20px;
 }
 .differ{
   margin-top: 20px;
+  font-size: 20px;
 }
 </style>

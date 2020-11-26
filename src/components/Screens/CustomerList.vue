@@ -1,7 +1,7 @@
 <template>
   <div class="list row shadow">
     <div>
-          <h4>Bienvenid@: {{ owner.name }}</h4>
+          <h4>Bienvenido, {{ owner.name }}</h4>
         </div>
     <!-- Search Panel -->
     <div class="col-md-8 differS">
@@ -30,7 +30,7 @@
       <h4>Mis clientes</h4>
       <ul class="list-group">
         <li
-          style="background-color: #c587ee"
+          style="background-color: #66dc80; font-weight: bold"
           class="list-group-item"
           :class="{ active: index === currentIndex }"
           v-for="(tutorial, index) in tutorials"
@@ -44,17 +44,17 @@
     <!-- Current Tutorial Panel -->
     <div class="col-md-6">
       <div v-if="currentTutorial">
-        <h4>Customer Info</h4>
+        <h4>Información de cliente</h4>
         <div>
           <label
-            ><strong>Name: </strong
+            ><strong>Nombre: </strong
             >{{
               currentTutorial.first_name + " " + currentTutorial.last_name
             }}</label
           >
         </div>
         <div>
-          <label><strong>Email: </strong>{{ currentTutorial.email }}</label>
+          <label><strong>Correo: </strong>{{ currentTutorial.email }}</label>
         </div>
        
         <div v-if="currentCredit">
@@ -79,30 +79,30 @@
        </div>
         <a
           v-if="currentCredit == ''"
-          class="badge badge-warning"
-          style="background-color: lightblue"
+          class="badge badge-warning differ2"
+          style="background-color: #ffb933"
           :href="'/add-credit/' + currentTutorial.id"
           >Crear linea de crédito</a
         >
         <a
           v-if="currentCredit"
-          class="badge badge-warning"
-          style="background-color: #e9a94e"
+          class="badge badge-warning differ2"
+          style="background-color: #ffb933"
           @click="retrieveInvoice"
-          >Agregar transacción</a
+          >Agregar transacción +</a
         >
       </div>
       <div v-else>
         <br />
-        <p>Please click on a Customer.</p>
+        <p>Seleccione a su cliente</p>
       </div>
     </div>
     <div class="differ">
     <a
       class="badge badge-warning differ"
-      style="background-color: #189f00"
+      style="background-color: #ffb933"
       :href="'/add-customer/' + this.owner_id"
-      >Agregar nuevo cliente</a
+      >Agregar cliente +</a
     >
     </div>
   </div>
@@ -324,13 +324,17 @@ export default {
   size: 500px;
   font-size: 20px;
   font-family: Roboto, sans-serif;
+  margin-top: 5px;
+}
+.differ2{
+  font-size: 20px;
 }
 
 .shadow {
     z-index: 1000;
     height: 600px;
     width: 1500px;
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f5f5;
     margin-top: 120px;
     margin-left: 300px;
 
@@ -348,10 +352,5 @@ export default {
 
     padding: 10px;
 }
-.differ{
-   margin-left: 10px;
-}
-.differS{
-   margin-bottom: -20px;
-}
+
 </style>
