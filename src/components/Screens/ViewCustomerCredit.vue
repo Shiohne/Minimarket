@@ -11,6 +11,7 @@
               class="form-control"
               id="first_name"
               v-model="customer.first_name"
+              readonly
             />
           </div>
           <div class="form-group">
@@ -20,6 +21,7 @@
               class="form-control"
               id="last_name"
               v-model="customer.last_name"
+              readonly
             />
           </div>
           <div class="form-group">
@@ -100,7 +102,7 @@
             <input
               type="text"
               class="form-control"
-              id="created_in"
+              id="created_at"
               v-model="rate.name"
               readonly
             />
