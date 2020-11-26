@@ -240,7 +240,6 @@
       >
         Actualizar mi perfil
       </button>
-    </div>
     <div>
       <button v-if="customer" class="badge badge-success" @click="viewPayment">
         Proceder a pagar
@@ -248,6 +247,7 @@
       <button v-if="customer" class="badge badge-success differB" @click="printPage">
         Imprimir reporte
       </button>
+    </div>
     </div>
     <div></div>
   </div>
@@ -484,22 +484,18 @@ export default {
   margin: auto;
 }
 .shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 20px 6px -6px #999;
-  z-index: 10;
-  height: 710px;
+  height: 700px;
   width: 1200px;
   background-color: rgb(227, 207, 207);
-  margin-top: 0px;
+  margin-top: 72px;
   margin-left: 80px;
-  padding: 20px;
+  padding: 9px;
 }
 .badge-success{
   margin: fill;
-  margin-top: -20px;
 }
 .differB{
+  margin-bottom: fill;
   margin-left: 860px;
 }
 </style>

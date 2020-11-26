@@ -169,7 +169,7 @@ export default {
     height: 600px;
     width: 700px;
     background-color: rgb(255, 255, 255);
-    margin-top: 30px;
+    margin-top: 72px;
     margin-left: 300px;
 
     padding: 10px;

@@ -20,7 +20,7 @@
             id = "search"
             @click="searchCustomer"
           >
-            Search
+            Buscar
           </button>
         </div>
       </div>
@@ -30,7 +30,7 @@
       <h4>Mis clientes</h4>
       <ul class="list-group">
         <li
-          style="background-color: #f38701"
+          style="background-color: #c587ee"
           class="list-group-item"
           :class="{ active: index === currentIndex }"
           v-for="(tutorial, index) in tutorials"
@@ -334,7 +334,7 @@ export default {
     height: 600px;
     width: 700px;
     background-color: rgb(255, 255, 255);
-    margin-top: 30px;
+    margin-top: 72px;
     margin-left: 300px;
 
     padding: 10px;

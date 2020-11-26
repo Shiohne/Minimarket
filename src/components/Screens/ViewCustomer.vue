@@ -61,14 +61,6 @@
             Actualizar mi perfil
           </button>
         </div>
-        <div>
-          <button
-            v-if="customer"
-            class="badge badge-success"
-          >
-            Ver mi crédito
-          </button>
-        </div>
       </div>
     </div>
   </div>
@@ -187,13 +179,16 @@ export default {
   z-index: 10;
   height: 580px;
   width: 700px;
-  background-color: rgb(255, 255, 255);
-  margin-top: 30px;
+  background-color: rgb(250, 242, 242);
+  margin-top: 72px;
   margin-left: 400px;
 
   padding: 10px;
 }
 .differ{
-  margin-top: 20px;
+  margin-top: 50px;
+}
+.form-control{
+  width: 300px;
 }
 </style>

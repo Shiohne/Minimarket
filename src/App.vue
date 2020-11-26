@@ -17,10 +17,9 @@
               <div class="line2"></div>
               <div class="line3"></div>
           </div>
-      </nav> 
+      </nav>
 
     <section class="zoom">
-        <p>-</p>
         <!-- Router View -->
         <div class="container mt-3">
           <router-view/>
@@ -52,7 +51,7 @@ export default {
 <style scoped>
 *{
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -107,14 +106,14 @@ p {
     justify-content: space-around;
     width: 45%;
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     box-sizing: border-box;
 }
 
 #bootstrap-overrides .nav-links li {
     list-style: none;
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -124,7 +123,7 @@ p {
     /* font-weight: bold; */
     font-size: 18px;
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     box-sizing: border-box;
 }
 

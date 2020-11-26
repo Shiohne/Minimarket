@@ -16,14 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280dadd3-0042-4594-a99e-f044beeb8064" name="Default Changelist" comment="Idioma de vista clientes">
+    <list default="true" id="280dadd3-0042-4594-a99e-f044beeb8064" name="Default Changelist" comment="Prueba nuevo landing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fondo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fondo2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Screens/AddCredit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/AddCredit.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Screens/AddSale.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/AddSale.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Screens/CustomerList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/CustomerList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Screens/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/Main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Screens/OrderDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/OrderDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Screens/PagarDeuda.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/PagarDeuda.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Screens/ViewCustomer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/ViewCustomer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Screens/ViewCustomerCredit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Screens/ViewCustomerCredit.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,30 +220,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1327" y="531" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606362686063" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1606368797277">
+    <state width="1522" height="288" key="GridCell.Tab.0.bottom" timestamp="1606374780784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602744249144" />
     <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960123" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606368797277" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1606368797276">
+    <state width="1522" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606374780784" />
+    <state width="1522" height="288" key="GridCell.Tab.0.center" timestamp="1606374780784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602744249144" />
     <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960122" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606368797276" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1606368797276">
+    <state width="1522" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606374780784" />
+    <state width="1522" height="288" key="GridCell.Tab.0.left" timestamp="1606374780784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602744249143" />
     <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960122" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606368797276" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1606368797277">
+    <state width="1522" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606374780784" />
+    <state width="1522" height="288" key="GridCell.Tab.0.right" timestamp="1606374780784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602744249144" />
     <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960123" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606368797277" />
+    <state width="1522" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606374780784" />
     <state x="423" y="97" key="SettingsEditor" timestamp="1606359883721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
