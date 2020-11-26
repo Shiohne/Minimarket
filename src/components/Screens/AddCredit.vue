@@ -300,7 +300,6 @@ export default {
     background-color: rgb(255, 255, 255);
   margin-top: 120px;
   margin-left: 300px;
-
     padding: 20px;
 }
 .differ{

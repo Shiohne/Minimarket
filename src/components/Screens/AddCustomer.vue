@@ -5,7 +5,7 @@
       <div class="submit-form">
         <div v-if="!submitted">
           <div class="form-group">
-            <label for="firstName">Nombre</label>
+            <label for="firstName">Nombres</label>
             <input
               type="text"
               class="form-control"
@@ -16,7 +16,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="lastName">Apellido</label>
+            <label for="lastName">Apellidos</label>
             <input
               type="text"
               class="form-control"
@@ -27,7 +27,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="age">Correo Electrónico</label>
+            <label for="age">Correo</label>
             <input
               type="text"
               class="form-control"
@@ -140,11 +140,11 @@ export default {
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 20px 6px -6px #999;
     z-index: 10;
-    height: 650px;
+    height: 620px;
     width: 700px;
     background-color: rgb(255, 255, 255);
-    margin-top: 30px;
-    margin-left: 350px;
+  margin-top: 110px;
+  margin-left: 300px;
 
     padding: 10px;
 }
