@@ -29,7 +29,7 @@
               type="text"
               class="form-control"
               id="interes"
-              v-model="interes"
+              v-model="this.interes"
               readonly
             />
           </div>
@@ -39,14 +39,14 @@
               type="text"
               class="form-control"
               id="total_charged"
-              v-model="total_charged"
+              v-model="this.total_charged"
               readonly
             />
           </div>
           
         </form>
         <div>
-          <button v-if="customer" class="badge badge-success" @click="PayDebt">
+          <button v-if="customer" class="badge badge-success" @click="PayDebt"  style="color: black; background-color: #ffb933">
             Calcular
           </button>
         </div>
@@ -68,7 +68,7 @@
               type="text"
               class="form-control"
               id="total_add_on"
-              v-model="total_add_on"
+              v-model="this.total_add_on"
               readonly
             />
           </div>
@@ -84,12 +84,12 @@
           </div>
 
           <div v-if="total_charged">
-          <button v-if="customer" class="badge badge-success" @click="PayPartOf">
+          <button v-if="customer" class="badge badge-success" @click="PayPartOf"  style="color: black; background-color: #ffb933">
             Amortizar
           </button>
           </div>
           <div v-if="total_charged">
-          <button v-if="customer" class="badge badge-success" @click="PayAll">
+          <button v-if="customer" class="badge badge-success" @click="PayAll"  style="color: black; background-color: #ffb933">
             Pagar Todo
           </button>
         </div>
@@ -280,8 +280,8 @@ export default {
             //Calculo de tasas
             //rate_id 1 = simple; rate_id 2 = Efectiva; rate_id 3 = Nominal;
             if (this.detail.rate_id == 1) {
-              this.interes = this.interes + this.orders[h].total_price * (this.detail.percentage / 100) * (this.t / 360);
-              this.total_charged = this.total_charged + this.orders[h].total_price * (1 + (this.detail.percentage / 100) * (this.t / 360));
+              this.interes = this.interes + this.orders[h].total_price * (this.detail.percentage / 100) * (this.t / this.term.time);
+              this.total_charged = this.total_charged + this.orders[h].total_price * (1 + (this.detail.percentage / 100) * (this.t / this.term.time));
               console.log(this.interes);
               console.log(this.total_charged);
             } else {
@@ -343,7 +343,6 @@ export default {
           console.log(e);
         });
         alert("volviendo al inicio");
-
         window.history.back();
     },
     PayPartOf(){
@@ -383,7 +382,7 @@ export default {
     z-index: 1000;
     height: 500px;
     width: 700px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
   margin-top: 120px;
   margin-left: 300px;
 

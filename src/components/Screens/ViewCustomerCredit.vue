@@ -244,7 +244,6 @@
               v-for="(order, index) in orders"
               :key="index"
               @click="setActiveOrder(order, index)"
-
           >
             N°{{ order.id }} ({{ order.date }})
           </li>
@@ -268,14 +267,15 @@
         v-if="customer"
         class="badge badge-success"
         @click="updateCustomer"
+        style="color: black; background-color: #ffb933"
       >
         Actualizar mi perfil
       </button>
     <div>
-      <button v-if="customer" class="badge badge-success" @click="viewPayment">
+      <button v-if="customer" class="badge badge-success" @click="viewPayment" style="color: black; background-color: #ffb933">
         Proceder a pagar
       </button>
-      <button v-if="customer" class="badge badge-success differB" @click="printPage">
+      <button v-if="customer" class="badge badge-success differB" @click="printPage" style="color: black; background-color: #ffb933">
         Imprimir reporte
       </button>
     </div>
@@ -519,16 +519,18 @@ export default {
 .shadow {
   height: 700px;
   width: 1200px;
-  background-color: rgb(227, 207, 207);
+  background-color: rgb(245, 245, 245);
   margin-top: 72px;
   margin-left: 80px;
   padding: 9px;
 }
 .badge-success{
-  margin: fill;
+  margin-bottom: 5px;
+  font-size: 12px;
 }
 .differB{
   margin-bottom: fill;
+  font-size: 15px;
   margin-left: 860px;
 }
 </style>

@@ -73,8 +73,8 @@
           <button @click="saveTutorial" class="btn btn-success" style="background-color: #ffb933; color: black">Registrar</button>
         </div>
         <div v-else>
-          <h4>Successfully submitted.</h4>
-          <button class="btn btn-success" @click="newTutorial">Add</button>
+          <h4>Ingresado exitoso.</h4>
+          <button class="btn btn-success" @click="newTutorial">Añadir</button>
         </div>
       </div>
     </div>

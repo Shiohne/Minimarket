@@ -45,7 +45,7 @@
             >
               <p>Capitalización</p>
               <li
-                style="background-color: #ffa504"
+                style="background-color: #016712"
                 class="list-group-item"
                 :class="{ active: index === currentIndexCap }"
                 v-for="(term, index) in terms"

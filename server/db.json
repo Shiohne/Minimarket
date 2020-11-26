@@ -13,91 +13,10 @@
       "customer_id": 2,
       "currency_id": 1,
       "active": 0,
-      "amount": 300,
-      "created_in": "10-17-2020",
-      "arrears": 15,
+      "amount": 250,
+      "created_in": "11-26-2020",
+      "arrears": 0,
       "id": 2
-    },
-    {
-      "customer_id": 4,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 300,
-      "created_in": "11-21-2020",
-      "arrears": 15,
-      "id": 3
-    },
-    {
-      "customer_id": 5,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 300,
-      "created_in": "11-21-2020",
-      "arrears": 20,
-      "id": 4
-    },
-    {
-      "customer_id": 3,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 130,
-      "created_in": "11-22-2020",
-      "arrears": 3,
-      "id": 5
-    },
-    {
-      "customer_id": 7,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 1000,
-      "created_in": "11-24-2020",
-      "arrears": 50,
-      "id": 6
-    },
-    {
-      "customer_id": 8,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 1000,
-      "created_in": "11-24-2020",
-      "arrears": 50,
-      "id": 7
-    },
-    {
-      "customer_id": 9,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 1000,
-      "created_in": "11-24-2020",
-      "arrears": 5,
-      "id": 8
-    },
-    {
-      "customer_id": 10,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 1000,
-      "created_in": "11-24-2020",
-      "arrears": 5,
-      "id": 9
-    },
-    {
-      "customer_id": 12,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 300,
-      "created_in": "11-26-2020",
-      "arrears": 0,
-      "id": 10
-    },
-    {
-      "customer_id": 13,
-      "currency_id": 1,
-      "active": 0,
-      "amount": 500,
-      "created_in": "11-26-2020",
-      "arrears": 0,
-      "id": 11
     }
   ],
   "credit_details": [
@@ -113,78 +32,24 @@
     {
       "credit_id": 2,
       "maintenance": 5,
-      "percentage": 13,
+      "percentage": 12,
       "rate_id": 3,
-      "term_id": 3,
+      "term_id": 2,
       "capitalization": {
-        "id": 4,
-        "name": "Diaria",
-        "time": 1
+        "id": 3,
+        "name": "Quincenal",
+        "time": 15
       },
       "id": 2
     },
     {
-      "credit_id": 3,
-      "maintenance": 5,
-      "percentage": 13,
+      "credit_id": 2,
+      "maintenance": 3,
+      "percentage": 9,
       "rate_id": 1,
-      "term_id": 3,
+      "term_id": 4,
       "capitalization": null,
       "id": 3
-    },
-    {
-      "credit_id": 4,
-      "maintenance": 5,
-      "percentage": 15,
-      "rate_id": 1,
-      "term_id": 3,
-      "capitalization": null,
-      "id": 4
-    },
-    {
-      "credit_id": 5,
-      "maintenance": 10,
-      "percentage": 14,
-      "rate_id": 2,
-      "term_id": 2,
-      "capitalization": null,
-      "id": 5
-    },
-    {
-      "credit_id": 6,
-      "maintenance": 100,
-      "percentage": 13,
-      "rate_id": 1,
-      "term_id": 4,
-      "capitalization": null,
-      "id": 6
-    },
-    {
-      "credit_id": 8,
-      "maintenance": 0,
-      "percentage": 5,
-      "rate_id": 1,
-      "term_id": 4,
-      "capitalization": null,
-      "id": 7
-    },
-    {
-      "credit_id": 9,
-      "maintenance": 20,
-      "percentage": 8,
-      "rate_id": 1,
-      "term_id": 1,
-      "capitalization": null,
-      "id": 8
-    },
-    {
-      "credit_id": 11,
-      "maintenance": 0,
-      "percentage": 4,
-      "rate_id": 1,
-      "term_id": 4,
-      "capitalization": null,
-      "id": 9
     }
   ],
   "rates": [
@@ -242,53 +107,20 @@
       "last_name": "Castellano Castillo",
       "phone": "941728594",
       "address": "Calle 15 De Enero 250",
-      "password": "fabrizio",
+      "password": "123",
       "activation": 0,
-      "id": 7
-    },
-    {
-      "owner_id": "1",
-      "email": "deyvid@gmail.com",
-      "first_name": "Deyvid",
-      "last_name": "Sanchez Morales",
-      "phone": "987654321",
-      "address": "Lince",
-      "password": "polar",
-      "activation": 10,
-      "id": 9
-    },
-    {
-      "owner_id": "1",
-      "email": "diana@gmail.com",
-      "first_name": "Diana",
-      "last_name": "Cruces Castillo",
-      "phone": "974568165",
-      "address": "Cabitos",
-      "password": "michito",
-      "activation": 10,
-      "id": 11
+      "id": 2
     },
     {
       "owner_id": "1",
       "email": "ronald@gmail.com",
       "first_name": "Ronald",
       "last_name": "Wherrems",
-      "phone": "789456321",
-      "address": "UPC",
-      "password": "1234",
-      "activation": 10,
-      "id": 12
-    },
-    {
-      "owner_id": "1",
-      "email": "shion@gmail.com",
-      "first_name": "Shion",
-      "last_name": "Yorigami",
-      "phone": "456789321",
-      "address": "Moriya Shrine",
+      "phone": "95764821",
+      "address": "Arequipa",
       "password": "123",
       "activation": 10,
-      "id": 13
+      "id": 3
     }
   ],
   "owners": [
@@ -303,7 +135,7 @@
     {
       "credit_id": 1,
       "status_id": 0,
-      "charges": 42.09,
+      "charges": 47.08,
       "start_date": "11-16-2020",
       "end_date": "12-30-2020",
       "id": 1
@@ -311,82 +143,10 @@
     {
       "credit_id": 2,
       "status_id": 0,
-      "charges": 44.78,
-      "start_date": "10-17-2020",
-      "end_date": "11-30-2020",
+      "charges": 28.48,
+      "start_date": "11-26-2020",
+      "end_date": "12-30-2020",
       "id": 2
-    },
-    {
-      "credit_id": 3,
-      "status_id": 0,
-      "charges": 99.69,
-      "start_date": "11-21-2020",
-      "end_date": "12-30-2020",
-      "id": 3
-    },
-    {
-      "credit_id": 4,
-      "status_id": 0,
-      "charges": 16.2,
-      "start_date": "11-21-2020",
-      "end_date": "12-30-2020",
-      "id": 4
-    },
-    {
-      "credit_id": 5,
-      "status_id": 0,
-      "charges": 75.7,
-      "start_date": "11-22-2020",
-      "end_date": "12-30-2020",
-      "id": 5
-    },
-    {
-      "credit_id": 6,
-      "status_id": 0,
-      "charges": 0.11000000000001364,
-      "start_date": "11-24-2020",
-      "end_date": "12-30-2020",
-      "id": 6
-    },
-    {
-      "credit_id": 7,
-      "status_id": 0,
-      "charges": 211.19,
-      "start_date": "11-24-2020",
-      "end_date": "12-30-2020",
-      "id": 7
-    },
-    {
-      "credit_id": 8,
-      "status_id": 0,
-      "charges": 144.99,
-      "start_date": "11-24-2020",
-      "end_date": "12-30-2020",
-      "id": 8
-    },
-    {
-      "credit_id": 9,
-      "status_id": 0,
-      "charges": 22.49,
-      "start_date": "11-24-2020",
-      "end_date": "12-30-2020",
-      "id": 9
-    },
-    {
-      "credit_id": 10,
-      "status_id": 0,
-      "charges": 0,
-      "start_date": "11-26-2020",
-      "end_date": "12-30-2020",
-      "id": 10
-    },
-    {
-      "credit_id": 11,
-      "status_id": 0,
-      "charges": 24.5,
-      "start_date": "11-26-2020",
-      "end_date": "12-30-2020",
-      "id": 11
     }
   ],
   "status": [
@@ -431,8 +191,8 @@
       "id": 3
     },
     {
-      "name": "Agua 3Lt",
-      "price": 5.5,
+      "name": "Delivery",
+      "price": 4.99,
       "currencyId": 1,
       "id": 4
     },
@@ -443,8 +203,8 @@
       "id": 5
     },
     {
-      "name": "Delivery",
-      "price": 4.99,
+      "name": "Agua 3Lt",
+      "price": 5.5,
       "currencyId": 1,
       "id": 6
     },
@@ -464,408 +224,52 @@
       "id": 1
     },
     {
-      "product_id": 3,
-      "order_id": 1,
+      "product_id": 5,
+      "order_id": 2,
       "quantity": 1,
-      "price_detail": 8,
+      "price_detail": 7,
       "id": 2
     },
     {
-      "product_id": 2,
+      "product_id": 4,
       "order_id": 2,
-      "quantity": 10,
-      "price_detail": 75,
+      "quantity": 1,
+      "price_detail": 4,
       "id": 3
     },
     {
-      "product_id": 1,
-      "order_id": 2,
-      "quantity": 1,
+      "product_id": 6,
+      "order_id": 3,
+      "quantity": 2,
       "price_detail": 11,
       "id": 4
     },
     {
-      "product_id": 3,
-      "order_id": 2,
+      "product_id": 4,
+      "order_id": 3,
       "quantity": 1,
-      "price_detail": 8,
+      "price_detail": 4,
       "id": 5
-    },
-    {
-      "product_id": 4,
-      "order_id": 2,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 6
-    },
-    {
-      "product_id": 3,
-      "order_id": 3,
-      "quantity": 2,
-      "price_detail": 17,
-      "id": 7
-    },
-    {
-      "product_id": 4,
-      "order_id": 3,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 8
-    },
-    {
-      "product_id": 1,
-      "order_id": 4,
-      "quantity": 1,
-      "price_detail": 11,
-      "id": 9
-    },
-    {
-      "product_id": 3,
-      "order_id": 4,
-      "quantity": 1,
-      "price_detail": 8,
-      "id": 10
-    },
-    {
-      "product_id": 3,
-      "order_id": 5,
-      "quantity": 3,
-      "price_detail": 26,
-      "id": 11
-    },
-    {
-      "product_id": 4,
-      "order_id": 5,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 12
-    },
-    {
-      "product_id": 3,
-      "order_id": 6,
-      "quantity": 1,
-      "price_detail": 8,
-      "id": 13
-    },
-    {
-      "product_id": 4,
-      "order_id": 6,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 14
-    },
-    {
-      "product_id": 2,
-      "order_id": 7,
-      "quantity": 2,
-      "price_detail": 15,
-      "id": 15
-    },
-    {
-      "product_id": 3,
-      "order_id": 8,
-      "quantity": 1,
-      "price_detail": 8,
-      "id": 16
-    },
-    {
-      "product_id": 2,
-      "order_id": 8,
-      "quantity": 4,
-      "price_detail": 30,
-      "id": 17
-    },
-    {
-      "product_id": 1,
-      "order_id": 9,
-      "quantity": 2,
-      "price_detail": 22,
-      "id": 18
-    },
-    {
-      "product_id": 7,
-      "order_id": 17,
-      "quantity": 1,
-      "price_detail": 2,
-      "id": 19
-    },
-    {
-      "product_id": 6,
-      "order_id": 17,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 20
-    },
-    {
-      "product_id": 4,
-      "order_id": 17,
-      "quantity": 1,
-      "price_detail": 5,
-      "id": 21
-    },
-    {
-      "product_id": 5,
-      "order_id": 17,
-      "quantity": 20,
-      "price_detail": 150,
-      "id": 22
-    },
-    {
-      "product_id": 7,
-      "order_id": 18,
-      "quantity": 20,
-      "price_detail": 50,
-      "id": 23
-    },
-    {
-      "product_id": 3,
-      "order_id": 18,
-      "quantity": 1,
-      "price_detail": 6,
-      "id": 24
-    },
-    {
-      "product_id": 5,
-      "order_id": 18,
-      "quantity": 20,
-      "price_detail": 150,
-      "id": 25
-    },
-    {
-      "product_id": 6,
-      "order_id": 18,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 26
-    },
-    {
-      "product_id": 5,
-      "order_id": 20,
-      "quantity": 2,
-      "price_detail": 15,
-      "id": 27
-    },
-    {
-      "product_id": 6,
-      "order_id": 20,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 28
-    },
-    {
-      "product_id": 7,
-      "order_id": 20,
-      "quantity": 50,
-      "price_detail": 125,
-      "id": 29
-    },
-    {
-      "product_id": 2,
-      "order_id": 21,
-      "quantity": 2,
-      "price_detail": 15,
-      "id": 30
-    },
-    {
-      "product_id": 7,
-      "order_id": 21,
-      "quantity": 1,
-      "price_detail": 2,
-      "id": 31
-    },
-    {
-      "product_id": 6,
-      "order_id": 21,
-      "quantity": 1,
-      "price_detail": 4,
-      "id": 32
-    },
-    {
-      "product_id": 1,
-      "order_id": 24,
-      "quantity": 2,
-      "price_detail": 22,
-      "id": 33
-    },
-    {
-      "product_id": 7,
-      "order_id": 24,
-      "quantity": 1,
-      "price_detail": 2,
-      "id": 34
     }
   ],
   "orders": [
     {
-      "invoice_id": 4,
+      "invoice_id": 1,
       "date": "11-21-2020",
       "total_price": 16.2,
-      "state": 3,
       "id": 1
     },
     {
-      "invoice_id": 3,
-      "date": "11-21-2020",
-      "total_price": 99.69,
-      "state": 3,
+      "invoice_id": 2,
+      "date": "11-26-2020",
+      "total_price": 12.49,
       "id": 2
     },
     {
-      "invoice_id": 1,
-      "date": "11-17-2020",
-      "total_price": 22.39,
-      "state": 3,
+      "invoice_id": 2,
+      "date": "11-26-2020",
+      "total_price": 15.99,
       "id": 3
-    },
-    {
-      "invoice_id": 1,
-      "date": "11-22-2020",
-      "total_price": 19.7,
-      "state": 3,
-      "id": 4
-    },
-    {
-      "invoice_id": 2,
-      "date": "10-20-2020",
-      "total_price": 31.09,
-      "state": 3,
-      "id": 5
-    },
-    {
-      "invoice_id": 2,
-      "date": "11-22-2020",
-      "total_price": 13.69,
-      "state": 3,
-      "id": 6
-    },
-    {
-      "invoice_id": 5,
-      "date": "11-22-2020",
-      "total_price": 15,
-      "state": 3,
-      "id": 7
-    },
-    {
-      "invoice_id": 5,
-      "date": "11-29-2020",
-      "total_price": 38.7,
-      "state": 3,
-      "id": 8
-    },
-    {
-      "invoice_id": 5,
-      "date": "12-10-2020",
-      "total_price": 22,
-      "state": 3,
-      "id": 9
-    },
-    {
-      "invoice_id": 4,
-      "date": "11-23-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 10
-    },
-    {
-      "invoice_id": 2,
-      "date": "11-23-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 11
-    },
-    {
-      "invoice_id": 5,
-      "date": "11-23-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 12
-    },
-    {
-      "invoice_id": 5,
-      "date": "11-23-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 13
-    },
-    {
-      "invoice_id": 2,
-      "date": "11-23-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 14
-    },
-    {
-      "invoice_id": 2,
-      "date": "11-23-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 15
-    },
-    {
-      "invoice_id": 1,
-      "date": "11-24-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 16
-    },
-    {
-      "invoice_id": 6,
-      "date": "11-24-2020",
-      "total_price": 162.99,
-      "state": 3,
-      "id": 17
-    },
-    {
-      "invoice_id": 7,
-      "date": "11-24-2020",
-      "total_price": 211.19,
-      "state": 3,
-      "id": 18
-    },
-    {
-      "invoice_id": 6,
-      "date": "11-24-2020",
-      "total_price": 0,
-      "state": 3,
-      "id": 19
-    },
-    {
-      "invoice_id": 8,
-      "date": "11-24-2020",
-      "total_price": 144.99,
-      "state": 3,
-      "id": 20
-    },
-    {
-      "invoice_id": 9,
-      "date": "11-24-2020",
-      "state": 3,
-      "total_price": 22.490000000000002,
-      "id": 21
-    },
-    {
-      "invoice_id": 8,
-      "date": "11-26-2020",
-      "total_price": 0,
-      "id": 22
-    },
-    {
-      "invoice_id": 1,
-      "date": "11-26-2020",
-      "total_price": 0,
-      "id": 23
-    },
-    {
-      "invoice_id": 11,
-      "date": "11-26-2020",
-      "total_price": 24.5,
-      "id": 24
-    },
-    {
-      "invoice_id": 11,
-      "date": "11-26-2020",
-      "total_price": 0,
-      "id": 25
     }
   ]
 }
