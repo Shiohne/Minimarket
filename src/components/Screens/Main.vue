@@ -19,13 +19,13 @@
   z-index: 10;
   height: 100px;
   background: #f38701;
-  margin-top: 100px;
-  margin-left: 400px;
-  border-width: 200px;
+  margin-top: 120px;
+  margin-left: 1020px;
+  border-width: 100px;
   padding: 10px;
 }
 .differ{
-    margin-left: 190px;
+    margin-left: 180px;
     margin-top: 20px;
     letter-spacing: 5px;
   font-family: Roboto;

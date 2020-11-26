@@ -135,7 +135,8 @@ export default {
   background-color: #c8c8c8;
   position: relative;
   margin-left: 140px;
+  margin-top: 80px;
   width: 1200px;
-  height: 700px;
+  height: 690px;
 }
 </style>

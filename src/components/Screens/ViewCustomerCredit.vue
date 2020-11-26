@@ -2,7 +2,7 @@
   <div class="edit-form container shadow">
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <h4>Mi Perfil:</h4>
+        <h4>Mi Cuenta:</h4>
         <form>
           <div class="form-group">
             <label for="first_name">Nombres</label>
@@ -131,7 +131,7 @@
       </div>
 
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <h4>Más Detalles:</h4>
+        <h4>Detalles Adicionales:</h4>
         <form>
           <div class="form-group">
             <label for="created_in">Fecha de creación de crédito</label>
@@ -206,19 +206,50 @@
         </form>
       </div>
       <div class="col-sm-3 col-md-3 col-lg-3">
-        <h4>Mis Compras:</h4>
+        <h3>Ordenes:</h3>
+        <h4>Por Confirmar:</h4>
         <ul class="list-group">
           <li
-            style="background-color: #ffa504"
+            style="background-color: #f15e62"
             class="list-group-item"
             :class="{ active: index === currentIndex }"
             v-for="(order, index) in orders"
             :key="index"
             @click="setActiveOrder(order, index)"
+
           >
             N°{{ order.id }} ({{ order.date }})
           </li>
         </ul>
+        <h4>Por pagar:</h4>
+        <ul class="list-group">
+          <li
+              style="background-color: #e7c044"
+              class="list-group-item"
+              :class="{ active: index === currentIndex }"
+              v-for="(order, index) in orders"
+              :key="index"
+              @click="setActiveOrder(order, index)"
+
+          >
+            N°{{ order.id }} ({{ order.date }})
+          </li>
+        </ul>
+        <h4>Canceladas:</h4>
+        <ul class="list-group">
+          <li
+              style="background-color: #79e242"
+              class="list-group-item"
+              :class="{ active: index === currentIndex }"
+              v-for="(order, index) in orders"
+              :key="index"
+              @click="setActiveOrder(order, index)"
+
+          >
+            N°{{ order.id }} ({{ order.date }})
+          </li>
+        </ul>
+
         <div v-if="currentOrder">
           <div>
             <button
@@ -328,6 +359,7 @@ export default {
         id: null,
         invoice_id: "",
         date: "",
+        state: 3,
         total_price: 0,
       },
 
@@ -335,6 +367,7 @@ export default {
       currentOrder: null,
       currentIndex: -1,
       credit_remain: "",
+      currentState:-1,
     };
   },
   methods: {

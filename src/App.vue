@@ -5,18 +5,17 @@
       <!-- Navigation Bar -->
       <nav class="navbar mynav">
         <div class="col-lg-2.1 shadow" style="cursor: pointer;" onclick="window.location='/';">
-          <h4 class="differ1">Minimarket</h4>
+          <h4 class="differ1">Minimarketaa</h4>
         </div>
           <ul class="nav-links">
              <li>
                 <a href="/terms&conditions">Terminos y condiciones</a>
              </li>
           </ul>
-          <div class="burger" @click="navSlide">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
+
+            <div class="col-lg-2.1 shadow2" style="cursor: pointer;" onclick="window.location='/terms&conditions';">
+              <h4 class="differ2">Marco Legal</h4>
+            </div>
       </nav>
 
     <section class="zoom">
@@ -89,9 +88,9 @@ p {
 }
 
 #bootstrap-overrides .navbar {
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
+    -webkit-box-shadow: 0 8px 6px -6px #ffffff;
+    -moz-box-shadow: 0 8px 6px -6px #ffffff;
+    box-shadow: 0 8px 6px -6px #cacaca;
     z-index: 1000;
 }
 
@@ -141,12 +140,17 @@ p {
 }
 
 .differ1{
-  color: white;
+  color: rgb(0, 102, 255, 0.0);
   letter-spacing: 2px;
+
 }
 
 .shadow{
-  margin-right: fill;
+  margin-right: 1320px;
+  margin-top: 15px;
+}
+.shadow2{
+  margin-left: 1300px;
 }
 @media screen and (max-width:1024px){
     #bootstrap-overrides .nav-links {
@@ -198,24 +202,11 @@ p {
     transform: translateX(0%);
 }
 
-.toggle .line1{
-    transform: rotate(-45deg) translate(-4px, 5px);
-}
-
-.toggle .line2{
-    opacity: 0%;
-}
-
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
 .zoom{
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(assets/fondo2.jpg);
-    background-size: 1550px
+    background: url(assets/minibg.png);
+    background-size: 1600px
 }
-
 </style>

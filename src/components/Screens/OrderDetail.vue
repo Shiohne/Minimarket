@@ -162,15 +162,12 @@ export default {
 </script>
 <style scoped>
 .shadow {
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 20px 6px -6px #999;
     z-index: 10;
     height: 600px;
     width: 700px;
     background-color: rgb(255, 255, 255);
-    margin-top: 72px;
-    margin-left: 300px;
+  margin-top: 120px;
+  margin-left: 300px;
 
     padding: 10px;
 }

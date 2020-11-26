@@ -173,9 +173,6 @@ export default {
   margin: auto;
 }
 .shadow {
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 20px 6px -6px #999;
   z-index: 10;
   height: 580px;
   width: 700px;

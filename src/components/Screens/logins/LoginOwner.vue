@@ -87,7 +87,8 @@
 <style scoped>
 .login {
   padding: 2rem;
-  margin-left: 200px;
+  margin-top: 60px;
+  margin-left: 1000px;
 }
 
 .form {
