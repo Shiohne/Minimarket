@@ -7,7 +7,7 @@
         <h4>Detalles del Cliente:</h4>
         <form>
           <div class="form-group">
-            <label for="first_name">First Name</label>
+            <label for="first_name">Nombres</label>
             <input
               type="text"
               class="form-control"
@@ -17,7 +17,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="last_name">Last Name</label>
+            <label for="last_name">Apellidos</label>
             <input
               type="text"
               class="form-control"
@@ -27,7 +27,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email">Correo</label>
             <input
               type="text"
               class="form-control"
@@ -37,7 +37,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="phone">Phone</label>
+            <label for="phone">Teléfono</label>
             <input
               type="text"
               class="form-control"
@@ -51,7 +51,7 @@
       <div class="col-sm-6 col-md-6 col-lg-6" v-if="!submitedCredit">
         <h4>Crédito:</h4>
         <div class="form-group">
-          <label for="amount">Monto de crédito otorgado</label>
+          <label for="amount">Monto de crédito a otorgar</label>
           <input
             type="number"
             class="form-control"
@@ -60,7 +60,7 @@
           />
         </div>
         <div class="form-group">
-          <label for="created_in">Fecha (MM-DD-AAAA)</label>
+          <label for="created_in">Fecha (mm-dd-aaaa)</label>
           <input
             type="text"
             class="form-control"

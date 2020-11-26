@@ -87,7 +87,7 @@
         <a
           v-if="currentCredit"
           class="badge badge-warning"
-          style="background-color: #f38701"
+          style="background-color: #e9a94e"
           @click="retrieveInvoice"
           >Agregar transacción</a
         >

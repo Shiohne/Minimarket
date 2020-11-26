@@ -17,14 +17,14 @@
             id = "search"
             @click="searchTitle"
           >
-            Search
+            Buscar
           </button>
         </div>
       </div>
     </div>
     <!-- Tutorials List Panel -->
     <div class="col-md-6">
-      <h4>Product List</h4>
+      <h4>Lista de productos</h4>
       <ul class="list-group">
         <li
           style="background-color: #ffa504"
@@ -60,7 +60,7 @@
           >
         </div>
         <div v-if="currentOrder">
-          <label><strong>Order: </strong>{{ currentOrder.id }}</label>
+          <label><strong>Orden: </strong>{{ currentOrder.id }}</label>
         </div>
         <div v-if="currentOrder">
           <label

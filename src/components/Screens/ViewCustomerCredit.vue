@@ -490,11 +490,14 @@ export default {
   z-index: 10;
   height: 710px;
   width: 1200px;
-  background-color: rgb(255, 255, 255);
-  margin-top: 30px;
+  background-color: rgb(227, 207, 207);
+  margin-top: 0px;
   margin-left: 80px;
-
   padding: 20px;
+}
+.badge-success{
+  margin: fill;
+  margin-top: -20px;
 }
 .differB{
   margin-left: 860px;

@@ -11,7 +11,6 @@
              <li>
                 <a href="/terms&conditions">Terminos y condiciones</a>
              </li>
-              
           </ul>
           <div class="burger" @click="navSlide">
               <div class="line1"></div>
@@ -84,7 +83,7 @@ p {
     align-items: center;
     min-height: 8vh;
     font-family: 'Cabin', sans-serif;
-    background-color: #f38701;
+  background-color: rgb(0, 102, 255, 0.0);
     position: fixed;
     top: 0;
     width: 100%;
@@ -187,12 +186,10 @@ p {
     }
 
     .zoom #layer1 {
-        width: 200%;
         height: auto;
     }
 
     .zoom #layer2 {
-        width: 100%;
         height: auto;
     }
 
@@ -219,7 +216,7 @@ p {
     height: 100%;
     position: fixed;
     background: url(assets/fondo2.jpg);
-    background-size: 2200px
+    background-size: 1550px
 }
 
 </style>
