@@ -21,6 +21,7 @@
         <h1>MINIMARKET</h1>
         <h2>Hacemos la web ideal para ti</h2>
         <a href="#">Contacto</a>
+        <router-link></router-link>
       </div>
       <img src="src/assets/calculator.svg" alt="">
     </div>
@@ -34,6 +35,21 @@
 
 <script>
 
+let boton = document.getElementById("icono");
+let enlaces = document.getElementById("enlaces");
+let contador = 0;
+
+boton.addEventListener("click", function(e){
+  e.preventDefault();
+  if(contador==0){
+    enlaces.className = ("enlaces dos")
+    contador=1;
+  }else{
+    enlaces.classList.remove("dos")
+    enlaces.className = ("enlaces uno")
+    contador=0;
+  }
+})
 export default {
   name: 'App',
   components: { },

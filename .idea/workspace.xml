@@ -16,7 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280dadd3-0042-4594-a99e-f044beeb8064" name="Default Changelist" comment="Idiomas de la parte ADMIN + negar cambios de nombre y mejoras en lista de clientes">
+    <list default="true" id="280dadd3-0042-4594-a99e-f044beeb8064" name="Default Changelist" comment="Prueba nuevo landing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
     </list>
@@ -149,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606371502037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prueba nuevo landing">
+      <created>1606372383828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606372383828</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Prueba nuevo landing">
+      <created>1606372393576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606372393576</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +201,8 @@
     <MESSAGE value="Prueba con cambio de idioma" />
     <MESSAGE value="Idioma de vista clientes" />
     <MESSAGE value="Idiomas de la parte ADMIN + negar cambios de nombre y mejoras en lista de clientes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Idiomas de la parte ADMIN + negar cambios de nombre y mejoras en lista de clientes" />
+    <MESSAGE value="Prueba nuevo landing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba nuevo landing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="412" key="#ESLint" timestamp="1604112418799">
@@ -222,30 +237,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1327" y="531" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606362686063" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom" timestamp="1606371620316">
+    <state width="1522" height="288" key="GridCell.Tab.0.bottom" timestamp="1606372492846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602744249144" />
     <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960123" />
-    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606371620316" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center" timestamp="1606371620316">
+    <state width="1522" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606372492846" />
+    <state width="1522" height="288" key="GridCell.Tab.0.center" timestamp="1606372492846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602744249144" />
     <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960122" />
-    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606371620316" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left" timestamp="1606371620316">
+    <state width="1522" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606372492846" />
+    <state width="1522" height="288" key="GridCell.Tab.0.left" timestamp="1606372492845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602744249143" />
     <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960122" />
-    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606371620316" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right" timestamp="1606371620316">
+    <state width="1522" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606372492845" />
+    <state width="1522" height="288" key="GridCell.Tab.0.right" timestamp="1606372492846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602744249144" />
     <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604351960123" />
-    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606371620316" />
+    <state width="1522" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606372492846" />
     <state x="423" y="97" key="SettingsEditor" timestamp="1606359883721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,11 +271,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603914706387" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1606371518135">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1606372364948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602739619065" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606371518135" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606372364948" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606361795817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
