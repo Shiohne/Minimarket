@@ -5,7 +5,7 @@
         <h4>Mi Perfil:</h4>
         <form>
           <div class="form-group">
-            <label for="first_name">Nombre</label>
+            <label for="first_name">Nombres</label>
             <input
               type="text"
               class="form-control"
@@ -14,7 +14,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="last_name">Last Name</label>
+            <label for="last_name">Apellidos</label>
             <input
               type="text"
               class="form-control"
@@ -23,7 +23,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email">Correo</label>
             <input
               type="text"
               class="form-control"
@@ -32,7 +32,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="phone">Phone</label>
+            <label for="phone">Teléfono</label>
             <input
               type="text"
               class="form-control"
@@ -41,7 +41,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="phone">Address</label>
+            <label for="phone">Dirección</label>
             <input
               type="text"
               class="form-control"
