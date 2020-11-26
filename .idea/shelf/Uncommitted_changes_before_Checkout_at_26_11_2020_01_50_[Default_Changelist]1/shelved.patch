@@ -1,0 +1,42 @@
+Index: src/App.vue
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><template>\r\n  <div>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Landing</title>\r\n    <link rel=\"stylesheet\" href=\"estilos.css\">\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap\" rel=\"stylesheet\">\r\n  <div>\r\n  <header>\r\n    <div class=\"container\">\r\n      <nav>\r\n        <a href=\"#\" id=\"icono\" class=\"icono\">Menú</a>\r\n        <div class=\"enlaces uno\" id=\"enlaces\">\r\n          <a href=\"\">Inicio</a>\r\n          <a href=\"\">Acerca de</a>\r\n          <a href=\"\">Contacto</a>\r\n        </div>\r\n      </nav>\r\n      <div class=\"textos\">\r\n        <h1>MINIMARKET</h1>\r\n        <h2>Hacemos la web ideal para ti</h2>\r\n        <a href=\"#\">Contacto</a>\r\n        <router-link></router-link>\r\n      </div>\r\n      <img src=\"src/assets/calculator.svg\" alt=\"\">\r\n    </div>\r\n  </header>\r\n  <div class=\"wave\">\r\n    <div style=\"height: 150px; overflow: hidden;\" ><svg viewBox=\"0 0 500 150\" preserveAspectRatio=\"none\" style=\"height: 100%; width: 100%;\"><path d=\"M-9.93,-12.53 C175.16,239.10 337.69,-135.89 505.30,71.34 L500.00,150.00 L0.00,150.00 Z\" style=\"stroke: none; fill: rgb(255, 255, 255);\"></path></svg></div>\r\n  </div>\r\n  </div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\n\r\nlet boton = document.getElementById(\"icono\");\r\nlet enlaces = document.getElementById(\"enlaces\");\r\nlet contador = 0;\r\n\r\nboton.addEventListener(\"click\", function(e){\r\n  e.preventDefault();\r\n  if(contador==0){\r\n    enlaces.className = (\"enlaces dos\")\r\n    contador=1;\r\n  }else{\r\n    enlaces.classList.remove(\"dos\")\r\n    enlaces.className = (\"enlaces uno\")\r\n    contador=0;\r\n  }\r\n})\r\nexport default {\r\n  name: 'App',\r\n  components: { },\r\n  methods: {\r\n    navSlide() {\r\n    const burger = document.querySelector('.burger');\r\n    console.log(burger);\r\n    const nav = document.querySelector('.nav-links');\r\n    console.log(nav);\r\n    nav.classList.toggle('nav-action');\r\n    burger.classList.toggle('toggle');\r\n}\r\n  }\r\n}\r\n\r\n</script>\r\n\r\n<style scoped>\r\n*{\r\n  margin:0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody{\r\n\r\n  font-family: 'Raleway', sans-serif;\r\n}\r\n\r\nnav{\r\n  position: fixed;\r\n  top: 20px;\r\n  left: 20px;\r\n  display: flex;\r\n  justify-content: flex-start;\r\n}\r\n\r\nnav a{\r\n  color:#fff;\r\n  text-decoration: none;\r\n}\r\n\r\n.icono{\r\n  display: block;\r\n  z-index: 100000000;\r\n  animation: moverIzquierda 1s ease-in;\r\n}\r\n\r\nheader{\r\n  background: #DA4453;\r\n  background: -webkit-linear-gradient(to right, #89216B, #DA4453);\r\n  background: linear-gradient(to right, #89216B, #DA4453);\r\n  height: auto;\r\n  padding: 48px;\r\n  width: 100%;\r\n}\r\n\r\n.container{\r\n  width: 95%;\r\n  max-width: 1200px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-around;\r\n  margin: auto;\r\n}\r\n\r\nimg{\r\n  display: block;\r\n  height: 450px;\r\n  object-fit: cover;\r\n  animation: arriba 1s ease-in;\r\n}\r\n\r\n.textos{\r\n  width: 50%;\r\n  color:#fff;\r\n}\r\n\r\n.textos h1{\r\n  font-size:80px;\r\n  animation: moverDerecha 1s ease-in;\r\n\r\n}\r\n\r\n.textos h2{\r\n  font-size:30px;\r\n  animation: moverIzquierda 1s ease-in;\r\n}\r\n\r\n.textos a{\r\n  display: inline-block;\r\n  color:#fff;\r\n  font-weight: 300;\r\n  text-decoration: none;\r\n  margin-top: 30px;\r\n  border: 1px solid #fff;\r\n  width: 150px;\r\n  border-radius: 3px;\r\n  text-align: center;\r\n  padding: 10px 0;\r\n  animation: arriba 1s ease-in;\r\n\r\n}\r\n\r\n.wave{\r\n  height: 100px;\r\n  width: 100%;\r\n  background: #DA4453;\r\n  background: -webkit-linear-gradient(to right, #c42597, #DA4453);\r\n  background: linear-gradient(to right, #89216B, #DA4453);\r\n}\r\n\r\n.enlaces{\r\n  position: fixed;\r\n  display: flex;\r\n  top: 0;\r\n  background: #000;\r\n  justify-content: space-around;\r\n  align-items: center;\r\n  height: 100vh;\r\n  right: 0;\r\n  flex-direction: column;\r\n  width: 100%;\r\n  transition: all 1s ease;\r\n  background: #bc4e9c;\r\n  background: -webkit-linear-gradient(to right, #be3261, #bc4e9c);\r\n  background: linear-gradient(to right, #f80759, #e6aa3b);\r\n\r\n}\r\n\r\n.uno{\r\n\r\n  -webkit-clip-path: circle(0% at 0 0);\r\n  clip-path: circle(0% at 0 0);\r\n\r\n}\r\n\r\n.dos{\r\n\r\n  -webkit-clip-path: circle(150% at 0 0);\r\n  clip-path: circle(150% at 0 0);\r\n\r\n}\r\n\r\n</style>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/App.vue	(revision c2b4b3ef7f1428eaec1c7b595783d7c49117d7af)
++++ src/App.vue	(date 1606373323333)
+@@ -21,7 +21,9 @@
+         <h1>MINIMARKET</h1>
+         <h2>Hacemos la web ideal para ti</h2>
+         <a href="#">Contacto</a>
+-        <router-link></router-link>
++        <div class="container mt-3">
++          <router-view/>
++        </div>
+       </div>
+       <img src="src/assets/calculator.svg" alt="">
+     </div>
+@@ -35,21 +37,7 @@
+ 
+ <script>
+ 
+-let boton = document.getElementById("icono");
+-let enlaces = document.getElementById("enlaces");
+-let contador = 0;
+ 
+-boton.addEventListener("click", function(e){
+-  e.preventDefault();
+-  if(contador==0){
+-    enlaces.className = ("enlaces dos")
+-    contador=1;
+-  }else{
+-    enlaces.classList.remove("dos")
+-    enlaces.className = ("enlaces uno")
+-    contador=0;
+-  }
+-})
+ export default {
+   name: 'App',
+   components: { },
